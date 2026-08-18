@@ -1,0 +1,21 @@
+node_modules/
+dist-chrome/
+dist-firefox/
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.local
+.env.*.local
+.vite/
+.svelte-kit/
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.zip
+*.tsbuildinfo
+
+# Calibration working files. The corpus that matters is the eval corpus in
+# IndexedDB, exported by `npm run eval` — spreadsheets here are scratch.
+*.xlsx
