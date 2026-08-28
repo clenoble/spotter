@@ -1,0 +1,72 @@
+[
+  {
+    "id": "clean-technical",
+    "authorName": "Dana Okafor",
+    "text": "Spent the week tracking down a memory leak in our WASM sandbox. Turned out the host wasn't dropping the linear-memory handle when a guest module trapped, so every failed call leaked ~2MB. Fix was a RAII guard around the instantiation. Writing it up because I couldn't find this documented anywhere.",
+    "label": { "pollution": 5 },
+    "note": "Concrete, specific, no hook. Substance."
+  },
+  {
+    "id": "clean-firsthand",
+    "authorName": "Marta Reyes",
+    "text": "I left clinical medicine after eleven years. Not a triumphant story — I was tired, and the system asked things of me I couldn't keep giving. I'm writing this from the other side, still unsure. Sharing in case someone in the same place needs to know the uncertainty is survivable.",
+    "label": { "pollution": 10 },
+    "note": "Genuine first-person account, no performance."
+  },
+  {
+    "id": "clean-factual",
+    "authorName": "EU Open Data",
+    "text": "New release: the 2025 European air-quality dataset is now available under CC-BY. 1.2M station-hours across 27 countries, hourly PM2.5 and NO2, with documented gap-filling methodology. Links and schema in the comments.",
+    "label": { "pollution": 8 },
+    "note": "Plain informative update."
+  },
+  {
+    "id": "borderline-hook",
+    "authorName": "Sam Vetter",
+    "text": "Most teams get retrospectives completely wrong. Here's the one change that fixed ours: we stopped assigning blame and started asking 'what made this hard?' Genuinely curious how others run theirs — what works for you?",
+    "label": { "pollution": 45 },
+    "note": "Real content, but wrapped in an engagement hook and a soft CTA."
+  },
+  {
+    "id": "borderline-story",
+    "authorName": "Priya Nadar",
+    "text": "A junior dev apologized to me for asking 'too many questions.' I told her the questions were the job. She's now our best debugger. Hire for curiosity. ♻️ Repost if you agree.",
+    "label": { "pollution": 55 },
+    "note": "Plausible anecdote, but formulaic and ends in a repost-bait."
+  },
+  {
+    "id": "pollution-motivational",
+    "authorName": "Greg Stahl",
+    "text": "Your network is your net worth.\n\nStop scrolling.\nStart connecting.\n\nThe people who win aren't the smartest.\n\nThey're the ones who SHOW UP.\n\nWho's with me? 👇",
+    "label": { "pollution": 92 },
+    "note": "Broetry, empty platitudes, pure engagement format."
+  },
+  {
+    "id": "pollution-cta",
+    "authorName": "Tina Brooks",
+    "text": "I built a 47-slide deck that will 10x your productivity. It's normally $499 but I'm giving it away FREE today only. Comment 'GROWTH' and I'll DM you the link. (You must be following me or I can't send it.)",
+    "label": { "pollution": 97 },
+    "note": "Comment-to-DM funnel, false scarcity, follower-farming."
+  },
+  {
+    "id": "pollution-outrage",
+    "authorName": "Mark Dell",
+    "text": "Unpopular opinion: if you still require employees in the office, you are ACTIVELY destroying their lives and you don't care about people. Full stop. No nuance. Like if you agree, comment if you're brave enough to disagree.",
+    "label": { "pollution": 90 },
+    "note": "Manufactured outrage, engagement-by-division."
+  },
+  {
+    "id": "borderline-promo-substance",
+    "authorName": "Lena Fischer",
+    "text": "We open-sourced our rate-limiter today (Apache-2.0). It does token-bucket with a sharded counter so it holds up under contention — benchmarks vs. the usual libraries in the repo. Built it because the alternatives fell over at our scale. Feedback welcome.",
+    "label": { "pollution": 25 },
+    "note": "Promotional but genuinely substantive and specific."
+  },
+  {
+    "id": "pollution-ai-slop",
+    "authorName": "Insight Daily",
+    "text": "In today's fast-paced world, leadership is more important than ever. Great leaders inspire greatness. Here are 5 timeless truths about leadership that every professional should remember. 1. Lead by example. 2. Communicate clearly. 3. Embrace change. 4. Stay positive. 5. Never stop learning. Which one resonates most?",
+    "label": { "pollution": 88 },
+    "note": "Generic AI-slop listicle, content-free."
+  }
+]

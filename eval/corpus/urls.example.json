@@ -1,0 +1,12 @@
+{
+  "clean": [
+    "https://example.com/a-substantive-essay-you-judged-clean",
+    "https://example.com/another-one"
+  ],
+  "borderline": [
+    "https://example.com/real-content-wrapped-in-engagement-hooks"
+  ],
+  "pollution": [
+    "https://example.com/engineered-bait-or-slop"
+  ]
+}
